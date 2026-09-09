@@ -1,7 +1,3 @@
-import fs from 'node:fs';
+import { greet } from "./greet.js";
 
-const greet = (name: string): string => {
-  return `Привет, ${name}!`;
-};
-
-console.log(greet("TypeScript"));
+console.log(greet("Patranak32"));
